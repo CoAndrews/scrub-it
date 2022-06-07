@@ -1,0 +1,24 @@
+{
+  "name": "scrub-it",
+  "version": "1.0.0",
+  "description": "web scraper",
+  "main": "scrub.js",
+  "scripts": {
+    "start": "nodemon scrub.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CoAndrews/scrub-it.git"
+  },
+  "author": "CoAndrews",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CoAndrews/scrub-it/issues"
+  },
+  "homepage": "https://github.com/CoAndrews/scrub-it#readme",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "cheerio": "^1.0.0-rc.11",
+    "express": "^4.18.1"
+  }
+}
